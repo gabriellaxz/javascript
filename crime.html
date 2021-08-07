@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>  </title>
+
+    <script LANGUAGE="JavaScript" type="text/javascript">
+	
+		const ConheciaVitima = prompt("Você conhecia a vítima?").toUpperCase();
+		const estavaNosArredores = prompt("Você estava nos arredores do local do crime?").toUpperCase();
+		const temHalibi = prompt("Você tem algum álibi?").toUpperCase();
+		const jaBrigouComVitima = prompt("Você já brigou por qualquer motivo com a vítima?").toUpperCase();
+		const jaCometeuCrimeSemelhante = prompt("Você já havia cometido algum crime semelhante antes?").toUpperCase();
+		if(ConheciaVitima == "SIM" ) {
+			if(estavaNosArredores == "SIM")
+			alert("Você é culpada.")
+			if(jaBrigouComVitima == "SIM")
+			alert("Você é culpada.")
+		}
+		else {
+			if(ConheciaVitima == "SIM" && estavanosArredadores == "SIM")
+			alert("Você é muito suspeito.")
+			if(ConheciaVitima == "NÃO" && estavaNosArredores == "NÃO" )
+			alert("Você é muito suspeito.")
+
+
+		}
+
+</script>
+</head>
+<body>
+</body>
+</html>
